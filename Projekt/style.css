@@ -6,3 +6,9 @@ h2{
     text-align: right;
     color: green;
 }
+
+.bohus {
+    text-align: center;
+    color: pink;
+    text-decoration: line-through;
+}
