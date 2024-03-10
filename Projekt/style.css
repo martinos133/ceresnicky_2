@@ -169,7 +169,7 @@ a {
   display: none;
 }
 @media (max-width: 768px) {
-  .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown {
+  .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown.dropdown-toggler {
     position: relative;
     box-shadow: none;
   }
