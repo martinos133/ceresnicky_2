@@ -152,7 +152,7 @@ a {
 .navbar .navbar-menu .navbar-nav > li.active a {
   color: #66f;
 }
-.navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown {
+.navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown{
   list-style: none;
   position: absolute;
   top: 150%;
@@ -169,7 +169,7 @@ a {
   display: none;
 }
 @media (max-width: 768px) {
-  .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown.dropdown-toggler {
+  .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown {
     position: relative;
     box-shadow: none;
   }
