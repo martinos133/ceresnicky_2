@@ -141,7 +141,8 @@ a {
   display: inline-block;
   padding: 0.5rem 1rem;
 }
-.navbar .navbar-menu .navbar-nav > li > a:hover {
+.navbar .navbar-menu .navbar-nav > li > a:hover,
+.navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown li a:hover {
   color: #66f;
 }
 @media (max-width: 768px) {
