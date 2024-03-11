@@ -206,7 +206,7 @@ a {
 }
 
 footer{
-  background-color: #f111;
+  background-color:black;
 }
 .footerContainer{
   width: 100%;
@@ -252,4 +252,25 @@ footer{
 
 .footerNav ul li a{
   color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+  opacity: 0.5;
+  transition: 1s;
 }
+
+.footerNav ul li a:hover{
+  opacity: 1;
+
+}
+
+.footerBottom {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+}
+
+.footerBottom {
+  color: white;
+}
+
