@@ -141,7 +141,8 @@ a {
   display: inline-block;
   padding: 0.5rem 1rem;
 }
-.navbar .navbar-menu .navbar-nav > li > a:hover {
+.navbar .navbar-menu .navbar-nav > li > a:hover,
+.navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown li a:hover {
   color: #66f;
 }
 @media (max-width: 768px) {
@@ -206,7 +207,7 @@ a {
 }
 
 footer{
-  background-color: #f111;
+  background-color:black;
 }
 .footerContainer{
   width: 100%;
@@ -252,4 +253,37 @@ footer{
 
 .footerNav ul li a{
   color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.5;
+  transition: 1s;
 }
+
+.footerNav ul li a:hover{
+  opacity: 1;
+
+}
+
+.footerBottom {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+}
+
+.footerBottom {
+  color: white;
+}
+
+@media(max-width: 700px){
+  .footerNav ul{
+    flex-direction: column;
+  }
+  .footerNav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
