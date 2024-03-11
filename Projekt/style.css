@@ -204,3 +204,52 @@ a {
     font-size: 1.05rem;
   }
 }
+
+footer{
+  background-color: #f111;
+}
+.footerContainer{
+  width: 100%;
+  padding: 40px 30px 20px ;
+}
+
+.Icons{
+  display: flex;
+  justify-content: center;
+}
+.Icons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.Icons a i{
+  font-size: 1.5em;
+  color: black;
+}
+
+.Icons a:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+.Icons a:hover i{
+  color: white;
+  transition: 1s;
+}
+
+.footerNav{
+  margin: 30px 0;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+
+}
+
+.footerNav ul li a{
+  color: white;
+}
