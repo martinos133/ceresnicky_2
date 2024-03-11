@@ -11,3 +11,18 @@ body {
     min-height: 100vh;
     background-color: rgb(104, 247, 166);
 }
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+
+}
