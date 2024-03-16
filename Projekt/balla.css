@@ -10,6 +10,9 @@
 body {
     min-height: 100vh;
     background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -54,4 +57,23 @@ body {
 
 .navbar a:hover::before{
     width: 100%;
+}
+
+main {
+    padding: 100px;
+    color: black;
+}
+
+section {
+    margin-bottom: 20px;
+    color: black;
+}
+
+main section h2 {
+    color: black;
+}
+
+main section p {
+    color: black;
+
 }
