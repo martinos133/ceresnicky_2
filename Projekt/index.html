@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Domov</title>
-    <link rel="icon" type="image" href="img/ceresne-removebg-preview.png">
+
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    
+
+       
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -22,9 +24,7 @@
               <span></span>
               <span></span>
             </button>
-            <a href="index.html">
-              <h3>Čerešničky</h3>
-            </a>
+            <img src="img/ceresne-removebg-preview.png" class="image">
           </div>
       
           <div class="navbar-menu" id="open-navbar1">
@@ -52,7 +52,7 @@
                     Príroda <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown" id="blog1">
-                  <li><a href="#">Zaujímavé druhy živočíchov a rastlín v tatrách</a></li>
+                  <li><a href="#">Zaujímavé druhy živočíchov a rastlín</a></li>
                   <li class="separator"></li>
                   <li><a href="#">Jaskyne </a></li>
                   <li class="separator"></li>
@@ -60,7 +60,7 @@
                   <li class="separator"></li>
                   <li><a href="#">Fotogaléria lesov druhy lesov </a></li>
                   <li class="separator"></li>
-                  <li><a href="#">Popis najvyšších vrcholov v tatrách </a></li>
+                  <li><a href="#">Najvyššie vrcholy v tatrách</a></li>
                 </ul>
               </li>
               <li class="navbar-dropdown">
@@ -84,18 +84,17 @@
                           Aktivity  <i class="fa fa-angle-down"></i>
                       </a>
                       <ul class="dropdown" id="blog3">
-                        <li><a href="#">Lyžiarske strediská</a></li>
+                        <li><a href="./Bohus podstranky/lyziarske.html">Lyžiarske strediská</a></li>
                         <li class="separator"></li>
-                        <li><a href="#">horská cyklistika </a></li>
+                        <li><a href="./Bohus podstranky/cyklistika.html">horská cyklistika </a></li>
                         <li class="separator"></li>
-                        <li><a href="#">Horolezectvo  </a></li>
+                        <li><a href="./Bohus podstranky/horolezectvo.html">Horolezectvo  </a></li>
                         <li class="separator"></li>
-                        <li><a href="#">Vodné aktivity </a></li>
+                        <li><a href="./Bohus podstranky/Vodneaktivity.html">Vodné aktivity </a></li>
                         <li class="separator"></li>
-                        <li><a href="#">Ďalšie aktivity </a></li>
+                        <li><a href="./Bohus podstranky/dalsieaktivity.html">Ďalšie aktivity </a></li>
                       </ul>
-                  </li>
-                      
+                  </li> 
                       <li class="navbar-dropdown">
                           <a href="#" class="dropdown-toggler" data-dropdown="blog4">
                               Tipy a rady pre náštevníkov  <i class="fa fa-angle-down"></i>
@@ -109,8 +108,7 @@
                             <li class="separator"></li>
                             <li><a href="#">Ubytovanie a stravovanie  </a></li>
                           </ul>
-                      </li>
-                          
+                      </li>         
               <li><a href="#">O nás</a></li>
               <li><a href="#">Kontakt</a></li>
             </ul>
@@ -118,32 +116,94 @@
         </div>
       </nav>
 
+      <div class="video-container">
+        <video autoplay muted loop>
+            <source src="highTatras.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
     <footer>
-      <div class = "footerContainer">
-        <div class="Icons">
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </div>
-
-        <div class = "footerNav">
+      <div class="footer-col">
+          <h4>Turistika</h4>
           <ul>
+              <li><a href="#">Turisticke trasy</a></li>
+              <li><a href="#">Priprava na Túru</a></li>
+              <li><a href="#">Tipy na Výletne miesta</a></li>
+              <li><a href="#">Stravovanie</a></li>
+              <li><a href="#">Informácie o pozorovaní zvierat</a></li>
+          </ul>
+      </div>
 
-            <li><a href = "#"> Domov</a></li>
-            <li><a href = "#"> Turistika</a></li>
-            <li><a href = "#"> Príroda<a></li>
-            <li><a href = "#"> Hístoria Tatier </a></li>
-            <li><a href = "#"> Aktivity</a></li>
-            <li><a href = "#"> Tipy a rady pre náštevnikov</a></li>
-            <li><a href = "#"> O nás </a></li>
-            <li><a href = "#"> Kontakt</a></li>
+      <div class="footer-col">
+        <h4>Príroda</h4>
+        <ul>
+            <li><a href="#">Turistické trasy</a></li>
+            <li><a href="#">Príprava na túru</a></li>
+            <li><a href="#">Tipy na výletne miesta</a></li>
+            <li><a href="#">Stravovanie</a></li>
+            <li><a href="#">Informácie o pozorovaní zviera</a></li>
+        </ul>
+    </div>
+
+      <div class="footer-col">
+          <h4>História tatier</h4>
+          <ul>
+              <li><a href="#">Zaujímavé druhy živočíchov a rastlín</a></li>
+              <li><a href="#">Jaskyne</a></li>
+              <li><a href="#">Ochrana prírody v Tatrách</a></li>
+              <li><a href="#">Fotogaléria lesov a druhy lesov</a></li>
+              <li><a href="#">Najvyssie vrcholy v tatrách</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Aktivity</h4>
+        <ul>
+            <li><a href="#">Zaujímavé druhy živočíchov a rastlín</a></li>
+            <li><a href="#">Lyžiarské Strediská</a></li>
+            <li><a href="#">Horská Cyklistika</a></li>
+            <li><a href="#">Horolozectvo</a></li>
+            <li><a href="#">Vodné aktivity</a></li>
+            <li><a href="#">Ďalšie aktivity</a></li>
+
+        </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Tipy a rady pre náštevníkov</h4>
+      <ul>
+          <li><a href="#">Doprava v Tatrách</a></li>
+          <li><a href="#">Bezpečnosť</a></li>
+          <li><a href="#">Oblečenie</a></li>
+          <li><a href="#">Ubytovanie a stravovanie</a></li>
+          <li><a href="#">Najvyssie vrcholy v tatrách</a></li>
+      </ul>
+  </div>
+
+
+      <div class="footer-col">
+          <h4>Čerešničky</h4>
+          <ul>
+              <li><a href="#">O nás</a></li>
+              <li><a href="#">Kontakt</a></li>
 
           </ul>
-        </div>
-        <div class = "footerBottom">
-          <p> &copy; 2024 - Designed by Ceresnicky </p>
       </div>
-    </footer>
+      <div class="footer-col">
+          <h4>Sledujte nás na </h4>
+          <div class="links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+  </footer>
+
+</body>
+<script src="first.js"></script>
+</html>
+
 
 </body>
 <script src="first.js"></script>
