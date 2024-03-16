@@ -74,6 +74,34 @@ main section p {
     color: black;
 
 }
- 
- 
+.historia-h1{
+    background-color: black
+}
 
+.historia-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 10rem calc((100vw - 1300px) / 2);
+}
+
+.historia-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem 2rem;
+}
+
+.historia-left h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: white;
+}
+ .historia-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
