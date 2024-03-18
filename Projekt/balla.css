@@ -61,19 +61,6 @@ main {
     color: black;
 }
 
-section {
-    margin-bottom: 20px;
-    color: black;
-}
-
-main section h2 {
-    color: black;
-}
-
-main section p {
-    color: black;
-
-}
 .historia-h1{
     background-color: black
 }
@@ -81,8 +68,8 @@ main section p {
 .historia-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 10rem calc((100vw - 1300px) / 2);
+    height: 70vh;
+    padding: 5rem calc((100vw - 1300px) / 2);
 }
 
 .historia-left{
@@ -90,7 +77,7 @@ main section p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 0rem 2rem;
 }
 
@@ -100,6 +87,41 @@ main section p {
     color: white;
 }
  .historia-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
+
+ .praveke{
+    background-color: black;
+    margin-top: 2px;
+ }
+
+ .praveke-container{
+    color: white;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+ }
+
+ .praveke-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 0rem 2rem;
+ }
+
+ .praveke-left h2{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: white;
+ }
+
+ .praveke-left p{
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
