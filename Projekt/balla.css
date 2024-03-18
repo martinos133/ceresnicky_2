@@ -162,3 +162,38 @@ main {
     line-height: 1.5;
     color: white;
  }
+
+ .rozvoj{
+    background-color: black;
+    margin-top: 2px;
+ }
+
+ .rozvoj-container{
+    color: white;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+ }
+
+ .rozvoj-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 0rem 2rem;
+ }
+
+ .rozvoj-left h2{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: white;
+ }
+
+ .rozvoj-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
