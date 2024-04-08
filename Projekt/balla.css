@@ -232,3 +232,71 @@ main {
     line-height: 1.5;
     color: white;
  }
+
+.footer {
+   background-color: #333;
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+   border-top: 2px solid #444;
+   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer h5 {
+   margin-bottom: 15px;
+}
+
+.footer ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.footer ul li {
+   margin-bottom: 5px;
+}
+
+.footer ul li a {
+   color: white;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+   color: #ddd;
+}
+
+/* Animácia pre footer */
+@keyframes footer-fade-in {
+   from {
+       opacity: 0;
+       transform: translateY(20px);
+   }
+   to {
+       opacity: 1;
+       transform: translateY(0);
+   }
+}
+
+.footer {
+   animation: footer-fade-in 0.5s ease-out forwards;
+}
+
+/* Zjednodušené rozloženie textu */
+.footer .footer-section {
+   margin-bottom: 20px;
+}
+
+.footer .footer-section:last-child {
+   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+   .footer {
+       padding: 10px 0;
+   }
+}
+
+
