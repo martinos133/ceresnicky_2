@@ -133,15 +133,17 @@ main {
 
  .stredoveke{
     background-color: black;
-    margin-top: 2px;
  }
-
+ 
+ .stredoveke-img{
+   height: 350px;
+   width: 610px;
+}
  .stredoveke-container{
-    color: white;
-    margin-left: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 50vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 70vh;
+   padding: 5rem calc((100vw - 1300px) / 2);
  }
 
  .stredoveke-left{
