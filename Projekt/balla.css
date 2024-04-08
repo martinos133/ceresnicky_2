@@ -94,16 +94,19 @@ main {
  }
 
  .praveke{
-    background-color: black;
-    margin-top: 2px;
- }
+   background-color: black;
+   margin-top: 2px;
+}
 
+.pozdrav-zpraveku{
+   height: 350px;
+   width: 610px;
+}
  .praveke-container{
-    color: white;
-    margin-left: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 50vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 70vh;
+   padding: 5rem calc((100vw - 1300px) / 2);
  }
 
  .praveke-left{
@@ -234,7 +237,7 @@ main {
  }
 
 .footer {
-   background-color: #333;
+   background-color: #222121;
    color: white;
    padding: 20px 0;
    text-align: center;
@@ -246,29 +249,31 @@ main {
 }
 
 .footer h5 {
-   margin-bottom: 15px;
+   margin-bottom: 10px;
 }
 
 .footer ul {
    list-style-type: none;
    padding: 0;
+   margin-top: 10px;
 }
 
 .footer ul li {
-   margin-bottom: 5px;
+   margin-bottom: 10px;
 }
 
 .footer ul li a {
    color: white;
    text-decoration: none;
    transition: color 0.3s ease;
+   margin-top: 10px;
 }
 
 .footer ul li a:hover {
    color: #ddd;
 }
 
-/* Animácia pre footer */
+
 @keyframes footer-fade-in {
    from {
        opacity: 0;
@@ -284,7 +289,6 @@ main {
    animation: footer-fade-in 0.5s ease-out forwards;
 }
 
-/* Zjednodušené rozloženie textu */
 .footer .footer-section {
    margin-bottom: 20px;
 }
