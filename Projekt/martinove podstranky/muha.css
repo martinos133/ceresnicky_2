@@ -12,6 +12,8 @@ body {
 a {
   text-decoration: none;
 }
+/* navbar */
+
 .container {
   width: 1170px;
   position: relative;
@@ -206,7 +208,7 @@ a {
     font-size: 1.05rem;
   }
 }
-
+/* imgs */
 .slider {
   display: flex;
   overflow: hidden;
@@ -293,7 +295,33 @@ text-decoration: none;
 cursor: pointer;
 }
 
+/* map */
 
+.map-container {
+  width: 350px;
+  height: 230px;
+  margin-top: 35px; 
+  overflow: hidden; 
+  border-radius: 10px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  transform: scale(1); 
+  transform-origin: top left;
+}
+
+@media screen and (max-width: 768px) {
+  .map-container {
+      width: 150px;
+      height: 150px;
+      margin-top: 20px; 
+  }
+}
+
+
+/* footer */
 :root{
   --theme-col: #2d4bf0;
 }
