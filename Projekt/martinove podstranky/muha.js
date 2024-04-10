@@ -35,32 +35,44 @@ window.addEventListener('mouseup', (event) => {
   handleSmallScreens()
 
   var modal = document.getElementById("myModal");
-
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-
-span.onclick = function() {
-    modal.style.display = "none";
+function openModal(imgSrc, title, description, location, additionalTextId) {
+    document.getElementById('modalImage').src = imgSrc;
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalDescription').innerText = description;
+    document.getElementById('modalLocation').innerText = location;
+    // Hide all additional texts
+    document.querySelectorAll('.additional-text').forEach(function(text) {
+        text.style.display = 'none';
+    });
+    // Show the specific additional text
+    document.getElementById(additionalTextId).style.display = 'block';
+    modal.style.display = "block";
 }
 
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+function closeModal() {
+    modal.style.display = "none";
+    // Hide all additional texts
+    document.querySelectorAll('.additional-text').forEach(function(text) {
+        text.style.display = 'none';
+    });
 }
 
 document.querySelectorAll('.slide').forEach(function(slide) {
     slide.addEventListener('click', function() {
-        var img = slide.querySelector('img');
+        var img = slide.querySelector('img').src;
         var title = slide.querySelector('h2').innerText;
         var description = slide.querySelector('p').innerText;
-
-        document.getElementById('modalImage').src = img.src;
-        document.getElementById('modalTitle').innerText = title;
-        document.getElementById('modalDescription').innerText = description;
-
-        modal.style.display = "block";
+        var location = slide.querySelector('.difficulty').innerText;
+        var additionalTextId = slide.querySelector('img').getAttribute('data-additional-text');
+        openModal(img, title, description, location, additionalTextId);
     });
 });
+
+span.onclick = closeModal;
+window.onclick = function(event) {
+    if (event.target == modal) {
+        closeModal();
+    }
+}

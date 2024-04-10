@@ -54,10 +54,10 @@
           </div>
         </div>
       </nav>
-
+      
       <div class="slider">
         <div class="slide">
-            <img src="fotky/zabiepleso.jpeg" alt="Image 1">
+            <img src="fotky/zabiepleso.jpeg" alt="Image 1" data-additional-text="additionalText1">
             <div class="slide-text">
                 <h2>Žabie plesá</h2>
                 <p>Lokalita: Vysoké Tatry</p>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="slide">
-            <img src="fotky/Starolesnianske.jpeg" alt="Image 2">
+            <img src="fotky/Starolesnianske.jpeg" alt="Image 2" data-additional-text="additionalText2">
             <div class="slide-text">
                 <h2>Starolesnianske pleso</h2>
                 <p>Lokalita: Vysoké Tatry</p>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="slide">
-            <img src="fotky/Zelené-pleso.jpeg" alt="Image 3">
+            <img src="fotky/Zelené-pleso.jpeg" alt="Image 3" data-additional-text="additionalText3">
             <div class="slide-text">
                 <h2>Zelené pleso</h2>
                 <p>Lokalita: Vysoké Tatry</p>
@@ -82,70 +82,22 @@
         </div>
     </div>
     
-    <div class="slider">
-      <div class="slide">
-          <img src="fotky/zabiepleso.jpeg" alt="Image 1">
-          <div class="slide-text">
-              <h2>Žabie plesá</h2>
-              <p>Lokalita: Vysoké Tatry</p>
-              <span class="difficulty">Náročnosť: Jednoduchá</span>
-          </div>
-      </div>
-      <div class="slide">
-          <img src="fotky/Starolesnianske.jpeg" alt="Image 2">
-          <div class="slide-text">
-              <h2>Starolesnianske pleso</h2>
-              <p>Lokalita: Vysoké Tatry</p>
-              <span class="difficulty">Náročnosť: Stredná</span>
-          </div>
-      </div>
-      <div class="slide">
-          <img src="fotky/Zelené-pleso.jpeg" alt="Image 3">
-          <div class="slide-text">
-              <h2>Zelené pleso</h2>
-              <p>Lokalita: Vysoké Tatry</p>
-              <span class="difficulty">Náročnosť: Ťažká</span>
-          </div>
-      </div>
-    </div>
-    
-    <div class="slider">
-      <div class="slide">
-        <div class="modal" id="myModal">
-     <div class="modal-content">
-        <span class="close">&times;</span>
-        <img id="modalImage" src="" alt="Modal Image">
-        <div class="modal-text">
-          <h2 id="modalTitle"></h2>
-          <p id="modalDescription"></p>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-text">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                <p id="modalLocation"></p>
+            </div>
+            <img id="modalImage" src="" alt="Modal Image">
+            <div id="additionalText1" class="additional-text" style="display: none;">skuuska textu, ze ako to pojde a ci to vlastne pojde alebo nepojde</div>
+            <div id="additionalText2" class="additional-text" style="display: none;">Druhý skuuska textu</div>
+            <div id="additionalText3" class="additional-text" style="display: none;">Tretí skuuska textu</div>
         </div>
-     </div>
     </div>
     
-          <img src="fotky/zabiepleso.jpeg" alt="Image 1">
-          <div class="slide-text">
-              <h2>Žabie plesá</h2>
-              <p>Lokalita: Vysoké Tatry</p>
-              <span class="difficulty">Náročnosť: Jednoduchá</span>
-          </div>
-      </div>
-      <div class="slide">
-          <img src="fotky/Starolesnianske.jpeg" alt="Image 2">
-          <div class="slide-text">
-              <h2>Starolesnianske pleso</h2>
-              <p>Lokalita: Vysoké Tatry</p>
-              <span class="difficulty">Náročnosť: Stredná</span>
-          </div>
-      </div>
-      <div class="slide">
-          <img src="fotky/Zelené-pleso.jpeg" alt="Image 3">
-          <div class="slide-text">
-              <h2>Zelené pleso</h2>
-              <p>Lokalita: Vysoké Tatry</p>
-              <span class="difficulty">Náročnosť: Ťažká</span>
-          </div>
-      </div>
-    </div>
+    
 
       
       <footer>
@@ -155,7 +107,7 @@
                     <span class='app-initial'></span>Čerešničky
                 </span>
                 <div class="map-container">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166906.38089729243!2d19.962221244809147!3d49.18325262405671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e2091f6172261%3A0x400f7d1c6978890!2sVysok%C3%A9%20Tatry!5e0!3m2!1ssk!2ssk!4v1712737949263!5m2!1ssk!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166906.38089729243!2d19.962221244809147!3d49.18325262405671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e2091f6172261%3A0x400f7d1c6978890!2sVysok%C3%A9%20Tatry!5e0!3m2!1ssk!2ssk!4v1712737949263!5m2!1ssk!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
               </div>
               
             </div>
