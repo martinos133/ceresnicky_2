@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-color: black;
+    background-image: url(img/tatrybw.jpg);
 }
 
 .header{
@@ -56,7 +56,7 @@ body {
 
 .row{
     margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 150px;
     display: flex;
     height: 80%;
     align-items: center;
@@ -70,14 +70,14 @@ body {
  }
  p{
     color: rgb(255, 255, 255);
-    font-size: 11px;
+    font-size: 15px;
     line-height: 15px;
  }
  button{
     width: 180px;
     color: #000;
     font-size: 12px;
-    padding: 12px 0;
+    padding: 15px 0;
     background: #ffffff;
     border: 0;
     border-radius: 20px;
@@ -85,15 +85,39 @@ body {
     margin-top: 30px;
  }
  .card{
-    width: 200px;
-    height: 230px;
+    width: 210px;
+    height: 240px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
+    color: #ffffff;
     margin: 10px 15px;
-    background-image: url(img/lomnicky.jpg);
     background-position: center;
     background-size: cover;
+    transition: 0.5s;
  }
+ .card1{
+    background-image: url(img/lomnicky.jpg);
+ }
+ .card2{
+    background-image: url(img/belianska.jpg);
+ }
+ .card3{
+    background-image: url(img/spleso.jpg);
+ }
+ .card4{
+    background-image: url(img/tanap.jpg);
+ }
+
+ .card:hover{
+    transform: translateY(-10px);
+ }
+ h5{color: #ffffff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+}
