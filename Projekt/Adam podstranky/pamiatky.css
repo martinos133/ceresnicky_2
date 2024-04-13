@@ -121,3 +121,84 @@ body {
     text-shadow: 0 0 5px #000;
     font-size: 8px;
 }
+
+.historia-h1{
+    background-color: black
+}
+
+.historia-container{
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 1fr 1fr;
+    height: 70vh;
+    padding: 5rem calc((100vw - 1300px) / 2);
+}
+
+.historia-left{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    padding: 0rem 2rem;
+}
+
+.historia-left h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: white;
+}
+ .historia-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
+ .stitg{
+    width: 620px;
+    height: 365px;
+    border-radius: 20px;
+ }
+ .praveke{
+    background-color: black;
+    margin-top: 2px;
+ }
+ 
+ .pozdrav-zpraveku{
+    height: 350px;
+    width: 610px;
+ }
+  .praveke-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70vh;
+    padding: 5rem calc((100vw - 1300px) / 2);
+  }
+ 
+  .praveke-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     color: white;
+     padding: 0rem 2rem;
+  }
+ 
+  .praveke-left h2{
+     margin-bottom: 1rem;
+     font-size: 2.5rem;
+     color: white;
+  }
+ 
+  .praveke-left p{
+     margin-bottom: 2rem;
+     font-size: 1.5rem;
+     line-height: 1.5;
+     color: white;
+  }
+.belianskaj{
+    width: 620px;
+    height: 365px;
+    border-radius: 20px;
+}
