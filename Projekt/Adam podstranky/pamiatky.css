@@ -164,11 +164,6 @@ body {
     background-color: black;
     margin-top: 2px;
  }
- 
- .pozdrav-zpraveku{
-    height: 350px;
-    width: 610px;
- }
   .praveke-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -198,6 +193,81 @@ body {
      color: white;
   }
 .belianskaj{
+    width: 620px;
+    height: 365px;
+    border-radius: 20px;
+}
+
+.stredoveke{
+    background-color: black;
+ }
+ 
+ .stredoveke-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 70vh;
+   padding: 5rem calc((100vw - 1300px) / 2);
+ }
+
+ .stredoveke-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 0rem 2rem;
+ }
+
+ .stredoveke-left h2{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: white;
+ }
+
+ .stredoveke-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
+ .strbskep{
+    width: 620px;
+    height: 365px;
+    border-radius: 20px;
+}
+ .rozvoj{
+    background-color: black;
+ }
+
+ .rozvoj-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 70vh;
+   padding: 5rem calc((100vw - 1300px) / 2);
+ }
+
+ .rozvoj-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 0rem 2rem;
+ }
+
+ .rozvoj-left h2{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: white;
+ }
+
+ .rozvoj-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
+ .tanap1{
     width: 620px;
     height: 365px;
     border-radius: 20px;
