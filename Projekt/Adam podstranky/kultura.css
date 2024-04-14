@@ -8,7 +8,6 @@
 body {
     min-height: 100vh;
     background-image: url(img/backgkultura.webp);
-    display: flex;
     background-size: cover;
 }
 
@@ -82,12 +81,12 @@ body {
     margin-top: 300px;
     padding-left: 20px;
     display: flex;
-    height: 40%;
+    height: 70%;
     align-items: center;
     background-color: #000;
  }
 .ccol{
-    flex-basis: 50%;  
+    flex-basis: 80%;  
  }
  .rrow h1{
     color: #ffffff;
@@ -95,8 +94,8 @@ body {
     padding-left: 30px;
  }
  p{
-    color: rgb(255, 255, 255);
-    font-size: 17px;
+    color: #ffffff;
+    font-size: 18px;
     line-height: 15px;
     padding-left: 30px;
  }
@@ -123,3 +122,38 @@ body {
  .card3{
     background-image: url(img/vyroba.webp);
  }
+ .rozvoj-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 70vh;
+   padding: 5rem calc((100vw - 1300px) / 2);
+   background-color: #000;
+ }
+
+ .rozvoj-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 2rem 2rem;
+ }
+
+ .rozvoj-left h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+ }
+
+ .rozvoj-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
+ .tanap1{
+    width: 620px;
+    height: 365px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
