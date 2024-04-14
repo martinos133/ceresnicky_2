@@ -88,3 +88,6 @@ window.addEventListener('mouseup', (event) => {
       }
   }
   
+  document.getElementById('restaurant-select').addEventListener('change', function() {
+    alert('You selected: ' + this.value);
+});
