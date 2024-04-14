@@ -8,7 +8,6 @@
 body {
     min-height: 100vh;
     background-image: url(img/backgkultura.webp);
-    background-size: cover;
 }
 
 .header{
@@ -81,7 +80,7 @@ body {
     margin-top: 300px;
     padding-left: 20px;
     display: flex;
-    height: 70%;
+    height: 50%;
     align-items: center;
     background-color: #000;
  }
@@ -108,7 +107,7 @@ body {
     box-sizing: border-box;
     cursor: pointer;
     color: #000;
-    margin: 10px 15px;
+    margin: 80px 10px;
     background-position: center;
     background-size: cover;
     transition: 0.5s;
