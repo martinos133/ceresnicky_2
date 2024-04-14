@@ -467,6 +467,7 @@ html{
   padding: 8px 10px;
   margin: 0 80px;
   transition: 0.3s;
+  border-radius: 20px;
 }
 
 /*Gallary*/
