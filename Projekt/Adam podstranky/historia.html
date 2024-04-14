@@ -89,30 +89,31 @@
         </section>
     </main>
    
-    <footer class="footer mt-auto py-3 bg-dark text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>O nás</h5>
-                    <p>Táto stránka je dedikovaná Tatrám, jednému z najkrajších a najzaujímavších miest na Slovensku.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Kontakt</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-white" href="#">Email: info@tatry.com</a></li>
-                        <li><a class="text-white" href="#">Telefón: +421 123 456 789</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Sociálne siete</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-white" href="#">Facebook</a></li>
-                        <li><a class="text-white" href="#">Instagram</a></li>
-                        <li><a class="text-white" href="#">Twitter</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <footer>
+        <h2 class="noviniek">Prihlásiť na odber noviniek</h2>
+        <form id="teamForm">
+            <label for="name">Meno:</label>
+            <input type="text" id="name" name="name"><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label>Pohlavie:</label>
+            <input type="radio" id="male" name="gender" value="muž">
+            <label for="male">Muž</label>
+            <input type="radio" id="female" name="gender" value="žena">
+            <label for="female">Žena</label><br><br>
+        
+            <label for="newsletter">Prihlásiť na odber noviniek:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"><br><br>
+        
+            <button class="buttonf" onclick="validateForm()">Odoslať</button>
+        </form>
+        
+        <script src="form-validation.js"></script>
+            <p></p>
+            <p><strong>Kontakt:</strong> email@example.com | </p>
+            <p>&copy; 2024 Čerešničky, Inc.</p>
         </footer>
 </body>
 </html>
