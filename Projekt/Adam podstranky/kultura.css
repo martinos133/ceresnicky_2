@@ -7,7 +7,9 @@
 
 body {
     min-height: 100vh;
-    background-image: url(img/tatrybw.jpg);
+    background-image: url(img/backgkultura.webp);
+    display: flex;
+    background-size: cover;
 }
 
 .header{
@@ -58,13 +60,12 @@ body {
     margin-left: 300px;
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: #000;
     text-align: center;
 
  }
 .col{
     flex-basis: 80%;
-
  }
  button{
     width: 180px;
@@ -76,4 +77,49 @@ body {
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+ }
+ .rrow{
+    margin-top: 300px;
+    padding-left: 20px;
+    display: flex;
+    height: 40%;
+    align-items: center;
+    background-color: #000;
+ }
+.ccol{
+    flex-basis: 50%;  
+ }
+ .rrow h1{
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 30px;
+ }
+ p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    line-height: 15px;
+    padding-left: 30px;
+ }
+ .card{
+    width: 210px;
+    height: 240px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #000;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+ }
+ .card1{
+    background-image: url(img/drevor.webp);
+ }
+ .card2{
+    background-image: url(img/tkanie.webp);
+ }
+ .card3{
+    background-image: url(img/vyroba.webp);
  }
