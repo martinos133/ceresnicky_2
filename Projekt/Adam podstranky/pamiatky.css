@@ -110,11 +110,11 @@ body {
  .card4{
     background-image: url(img/tanap.jpg);
  }
-
- .card:hover{
+.card:hover{
     transform: translateY(-10px);
  }
- h5{color: #ffffff;
+ h5{
+    color: #fff;
     text-shadow: 0 0 5px #999;
 }
 .card p{
