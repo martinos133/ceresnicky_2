@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
+body{
     min-height: 100vh;
     background-image: url(img/tatrybw.jpg);
 }
@@ -54,21 +54,21 @@ body {
     width: 100%;
 }
 
-.row{
+.row-p{
     margin-top: 200px;
     margin-left: 150px;
     display: flex;
     height: 80%;
     align-items: center;
  }
-.col{
+.col-p{
     flex-basis: 50%;
  }
- h1{
+ .h1p{
     color: #ffffff;
     font-size: 80px;
  }
- p{
+ .pp{
     color: rgb(255, 255, 255);
     font-size: 15px;
     line-height: 15px;
@@ -84,7 +84,7 @@ body {
     outline: none;
     margin-top: 30px;
  }
- .card{
+ .cardp{
     width: 210px;
     height: 240px;
     display: inline-block;
@@ -113,7 +113,7 @@ body {
 .card:hover{
     transform: translateY(-10px);
  }
- h5{
+ .cardh5{
     color: #fff;
     text-shadow: 0 0 5px #999;
 }
@@ -155,14 +155,8 @@ body {
     line-height: 1.5;
     color: white;
  }
- .stitg{
-    width: 620px;
-    height: 365px;
-    border-radius: 20px;
- }
  .praveke{
     background-color: black;
-    margin-top: 2px;
  }
   .praveke-container{
     display: grid;
@@ -192,14 +186,13 @@ body {
      line-height: 1.5;
      color: white;
   }
-.belianskaj{
-    width: 620px;
-    height: 365px;
-    border-radius: 20px;
-}
-
 .stredoveke{
     background-color: black;
+ }
+ .stredoveke-img{
+    height: 350px;
+    width: 610px;
+    border-radius: 20px;
  }
  
  .stredoveke-container{
@@ -230,11 +223,7 @@ body {
     line-height: 1.5;
     color: white;
  }
- .strbskep{
-    width: 620px;
-    height: 365px;
-    border-radius: 20px;
-}
+
  .rozvoj{
     background-color: black;
  }
@@ -267,16 +256,75 @@ body {
     line-height: 1.5;
     color: white;
  }
- .tanap1{
-    width: 620px;
-    height: 365px;
+ .buttonf {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.rowh{
+    margin-top: 300px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    height: 80%;
+ }
+ .colh{
+    flex-basis: 80%;
+ }
+ .buttonh{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 15px 0;
+    background: #ffffff;
+    border: 0;
     border-radius: 20px;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-}
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .zmeny{
+    background-color: black;   
+ }
 
+ .zmeny-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 70vh;
+   padding: 5rem calc((100vw - 1300px) / 2);
+ }
+
+ .zmeny-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 0rem 2rem;
+ }
+
+ .zmeny-left h2{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: white;
+ }
+
+ .zmeny-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
 .noviniek {
     color: #fff;
 }
@@ -311,21 +359,6 @@ input[type="radio"] {
 input[type="checkbox"] {
     margin-top: 5px;
 }
-
-.buttonf {
-    background-color: #0056b3;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
 footer {
     text-align: center;
     padding: 10px;
