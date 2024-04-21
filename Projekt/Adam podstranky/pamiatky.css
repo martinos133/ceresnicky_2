@@ -7,7 +7,15 @@
 
 body{
     min-height: 100vh;
+}
+.historiab{
+    background-image: url(img/tanap.jpg);
+}
+.pamiatkyb{
     background-image: url(img/tatrybw.jpg);
+}
+.kulturab{
+    background-image: url(img/backgkultura.webp);
 }
 
 .header{
@@ -54,6 +62,8 @@ body{
     width: 100%;
 }
 
+
+
 .row-p{
     margin-top: 200px;
     margin-left: 150px;
@@ -73,7 +83,7 @@ body{
     font-size: 15px;
     line-height: 15px;
  }
- .buttona{
+ .buttonp{
     width: 180px;
     color: #000;
     font-size: 12px;
@@ -110,7 +120,7 @@ body{
  .card4{
     background-image: url(img/tanap.jpg);
  }
-.card:hover{
+.cardp:hover{
     transform: translateY(-10px);
  }
  .cardh5{
@@ -325,6 +335,141 @@ body{
     line-height: 1.5;
     color: white;
  }
+
+
+
+ .rowk{
+    margin-top: 300px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    height: 80%;
+
+ }
+.colk{
+    flex-basis: 80%;
+ }
+.buttonk{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 15px 0;
+    background: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+ }
+.rrowk{
+    margin-top: 300px;
+    padding-left: 20px;
+    display: flex;
+    height: 50%;
+    align-items: center;
+    background-color: #000;
+ }
+.ccolk{
+    flex-basis: 80%;  
+ }
+.rrowk h1{
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 30px;
+ }
+.pk{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 15px;
+    padding-left: 30px;
+ }
+ .cardk{
+    width: 210px;
+    height: 240px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #000;
+    margin: 80px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+ }
+ .card1{
+    background-image: url(img/drevor.webp);
+ }
+ .card2{
+    background-image: url(img/tkanie.webp);
+ }
+ .card3{
+    background-image: url(img/vyroba.webp);
+ }
+ .cardk:hover{
+    transform: translateY(-10px);
+ }
+ h5{
+    color: #000;
+    text-shadow: 0 0 5px #999;
+}
+.cardk p{
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+}
+ .rozvoj-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 70vh;
+   padding: 5rem calc((100vw - 1300px) / 2);
+   background-color: #000;
+ }
+ .rozvoj-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 2rem 2rem;
+ }
+ .rozvoj-left h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+ }
+
+ .rozvoj-left p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+ }
+ .tanap1{
+    width: 620px;
+    height: 365px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.rowwk{
+    padding: 150px 150px;
+    padding-left: 340px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+.collk{
+    flex-basis: 80%;
+}
+.fujara{
+    width: 420px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
 .noviniek {
     color: #fff;
 }
