@@ -18,7 +18,7 @@ body{
     background-image: url(img/backgkultura.webp);
 }
 .muzeab{
-    background-color: #000;
+    background-color: #1F1D1D;
 }
 
 .header{
@@ -482,7 +482,7 @@ body{
   }  
 
 .slide {
-    flex: 0 1 30%; /* každá karta bude zaberat cca tretinu dostupnej šírky */
+    flex: 0 1 30%; 
     margin: 20px;
 }
 
@@ -494,7 +494,7 @@ body{
 }
 
 .slide-text {
-  flex: 0 1 30%; /* každá karta bude zaberat cca tretinu dostupnej šírky */
+  flex: 0 1 30%; 
   margin: 10px;
   color: #fff;
 }
