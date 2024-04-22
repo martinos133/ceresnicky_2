@@ -210,8 +210,7 @@ a {
 }
 
 footer{
-  position: absolute;
-  z-index: 1;
+  position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -326,16 +325,19 @@ ul li a:hover{
 }
 
 .video {
-  position: relative;
-  right: 0; 
+  position: absolute; /* Zmena z relative na absolute */
+  left: 0; /* Zmena z right na left */
+  top: 0; /* Zmena z bottom na top */
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  width: auto; 
-  height: auto; 
+  width: 100%; /* Zmena z auto na 100% */
+  height: 100%; /* Zmena z auto na 100% */
   z-index: -100;
-  background-size: cover;
-}
+  object-fit: cover; /* Pridanie object-fit: cover; */
+ }
+ 
 
 .video video {
   position: fixed;
