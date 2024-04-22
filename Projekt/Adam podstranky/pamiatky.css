@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
 }
 .historiab{
-    background-image: url(img/tanap.jpg);
+    background-color: #000;
 }
 .pamiatkyb{
     background-image: url(img/tatrybw.jpg);
@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100; 
+    z-index: 100;
 }
 
 .logo{
