@@ -6,7 +6,7 @@
     <title>Múzeá</title>
     <link rel="stylesheet" href="pamiatky.css">
 </head>
-<body>
+<body class="muzeab">
     <header class="header">
         <a href="index.html" class="logo">Čerešničky</a>
 
@@ -17,52 +17,53 @@
             <a href="muzea.html">Múzeá</a>
         </nav>
     </header>
-    <main>
-        
+       <main>
         <div class="slider">
             <div class="slide">
-                <img src="fotky/zabiepleso.jpeg" alt="Image 1" data-additional-text="additionalText1">
+                <img src="img/muzeum-v-poprade.jpg" alt="Image 1" data-additional-text="additionalText1">
                 <div class="slide-text">
-                    <h2>Žabie plesá</h2>
-                    <p>Lokalita: Vysoké Tatry</p>
-                    <span class="difficulty">Náročnosť: Jednoduchá</span>
+                    <h2>Podtatranské múzeum v Poprade</h2>
+                    <p>Lokalita: Poprad</p>
                 </div>
             </div>
             <div class="slide">
-                <img src="fotky/Starolesnianske.jpeg" alt="Image 2" data-additional-text="additionalText2">
+                <img src="img/muzeum-tanap-u-foto-jano-stovka-mqep_full.jpg" alt="Image 2" data-additional-text="additionalText2">
                 <div class="slide-text">
-                    <h2>Starolesnianske pleso</h2>
-                    <p>Lokalita: Vysoké Tatry</p>
-                    <span class="difficulty">Náročnosť: Stredná</span>
+                    <h2>Múzeum Tatranského národného parku (TANAP)</h2>
+                    <p>Lokalita: Tatranská Lomnica</p>
                 </div>
             </div>
             <div class="slide">
-                <img src="fotky/Zelené-pleso.jpeg" alt="Image 3" data-additional-text="additionalText3">
+                <img src="img/Dobrahracka.jpg" alt="Image 3" data-additional-text="additionalText3">
                 <div class="slide-text">
-                    <h2>Zelené pleso</h2>
-                    <p>Lokalita: Vysoké Tatry</p>
-                    <span class="difficulty">Náročnosť: Ťažká</span>
+                    <h2>Galéria Dobrá Hračka</h2>
+                    <p>Lokalita: Starý Smokovec</p>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/zdiarsky-dom-01.jpg" alt="Image 1" data-additional-text="additionalText1">
+                    <div class="slide-text">
+                        <h2>Expozícia ľudovej architektúry - Ždiarsky dom</h2>
+                        <p>Lokalita: Ždiar</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/vila-flora-v-starom-smokovci-v-roku-2009-clanokW.jpg" alt="Image 2" data-additional-text="additionalText2">
+                    <div class="slide-text">
+                        <h2>Villa Flóra</h2>
+                        <p>Lokalita: Starý Smokovec</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/muzeumk.jpg" alt="Image 3" data-additional-text="additionalText3">
+                    <div class="slide-text">
+                        <h2>Múzeum Jána Juraja Tatara</h2>
+                        <p>Lokalita: Kežmarok</p>
                 </div>
             </div>
         </div>
-        
-        <div class="modal" id="myModal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div class="modal-text">
-                    <h2 id="modalTitle"></h2>
-                    <p id="modalDescription"></p>
-                    <p id="modalLocation"></p>
-                </div>
-                <img id="modalImage" src="" alt="Modal Image">
-                <div id="additionalText1" class="additional-text" style="display: none;">skuuska textu, ze ako to pojde a ci to vlastne pojde alebo nepojde</div>
-                <div id="additionalText2" class="additional-text" style="display: none;">Druhý skuuska textu</div>
-                <div id="additionalText3" class="additional-text" style="display: none;">Tretí skuuska textu</div>
-            </div>
-            <button id="prevBtn" class="nav-button">&lt;</button>
-            <button id="nextBtn" class="nav-button">&gt;</button>
-    
-    
+    </main>
         <footer>
             <h2 class="noviniek">Prihlásiť na odber noviniek</h2>
             <form id="teamForm">
@@ -84,11 +85,10 @@
                 <button class="buttonf" onclick="validateForm()">Odoslať</button>
             </form>
             
-            <script src="form-validation.js"></script>
+            <script src="ballajv"></script>
                 <p></p>
                 <p><strong>Kontakt:</strong> email@example.com | </p>
                 <p>&copy; 2024 Čerešničky, Inc.</p>
             </footer>
-    </main>
 </body>
 </html>

@@ -17,6 +17,9 @@ body{
 .kulturab{
     background-image: url(img/backgkultura.webp);
 }
+.muzeab{
+    background-color: #000;
+}
 
 .header{
     position: fixed;
@@ -472,33 +475,28 @@ body{
 }
 
 .slider {
+    margin-top: 70px;
     display: flex;
-    overflow: hidden;
-    width: 100%;
-    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }  
 
 .slide {
-  width: 100%;
-  transition: transform 0.5s;
-  position: relative;
+    flex: 0 1 30%; /* každá karta bude zaberat cca tretinu dostupnej šírky */
+    margin: 20px;
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
+  width: 450px;
+  height: 300px;
   object-fit: cover;
   border-radius: 15px;
 }
 
 .slide-text {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  border-radius: 10px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+  flex: 0 1 30%; /* každá karta bude zaberat cca tretinu dostupnej šírky */
+  margin: 10px;
+  color: #fff;
 }
 
 .difficulty {
@@ -508,66 +506,10 @@ body{
 
 @media screen and (max-width: 600px) {
   .slider {
-      height: 200px;
+      height: 100px;
   }
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  position: relative;
-}
-
-#modalImage {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  margin: 0 auto;
-}
-
-.close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000; /* Adjust the color as needed */
-  background-color: #fff; 
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.additional-text {
-  display: none;
-  text-align: right;
-}
-  
 .noviniek {
     color: #fff;
 }
