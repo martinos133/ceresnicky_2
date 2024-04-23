@@ -44,3 +44,8 @@ function presunNaHistoriuTatier() {
     const sekcia = document.getElementById('historiaTatier');
     sekcia.scrollIntoView({ behavior: 'smooth' });
 }
+
+function presunNaremesla() {
+    const sekcia = document.getElementById('remesla');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
