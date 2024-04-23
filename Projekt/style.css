@@ -304,19 +304,6 @@ ul li a:hover{
   }
 }
 
-.video {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin-top: 50px; /* Adjust based on the height of your navbar */
-  margin-bottom: 50px; /* Adjust based on the height of your footer */
-}
 
-.video video {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 
