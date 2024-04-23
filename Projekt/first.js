@@ -53,3 +53,5 @@ window.addEventListener('mouseup', (event) => {
   }
   
   handleSmallScreens()
+
+  

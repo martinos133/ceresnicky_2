@@ -210,8 +210,7 @@ a {
 }
 
 footer{
-  position: absolute;
-  z-index: 1;
+  position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -305,9 +304,19 @@ ul li a:hover{
   }
 }
 
+.video {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 50px; /* Adjust based on the height of your navbar */
+  margin-bottom: 50px; /* Adjust based on the height of your footer */
+}
 
-
-
-
-
+.video video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
