@@ -69,3 +69,18 @@ function presunNatanap() {
     const sekcia = document.getElementById('tanap');
     sekcia.scrollIntoView({ behavior: 'smooth' });
 }
+
+function presunNadrevo() {
+    const sekcia = document.getElementById('drevo');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNatkanie() {
+    const sekcia = document.getElementById('tkanie');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNavyroba() {
+    const sekcia = document.getElementById('vyroba');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
