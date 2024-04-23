@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Bohus Zeman</name>
+        <gender>Jednorozec</gender>
+        <age>20</age>
+        <residence>Lunik</residence>
+        <school>Paneuropska Vysoka Skola</school>
+    </student>
+    <student>
+        <name>Adam Balla</name>
+        <gender>Muz</gender>
+        <age>20</age>
+        <residence>Michalovce</residence>
+        <school>Paneuropska Vysoka Skola</school>
+    </student>
+    <student>
+        <name>Martin Muha</name>
+        <gender>Muž</gender>
+        <age>21</age>
+        <residence>Ruzomberok</residence>
+        <school>Paneuropska Vysoka Skola</school>
+    </student>
+</students>

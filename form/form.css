@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0; /* Zmena pozadia na sivé */
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    background: #ffffff; /* Zmena pozadia kontejnera na biele */
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Zmena stínu */
+}
+
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: #333333; /* Zmena farby textu na tmavšiu */
+    border-bottom: solid 1px #cccccc; /* Zmena farby podčiarknutia */
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #cccccc; /* Zmena farby okrajov */
+    padding: 0 10px;
+}
+
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    color: #ffffff; /* Zmena farby textu na bielu */
+    background: #4CAF50; /* Zmena farby pozadia na zelenú */
+}
+
+.form-submit-btn input:hover{
+    background: #45a049; /* Zmena farby pozadia pri prechádzaní myšou na tmavšiu zelenu */
+}
+.form-submit-btn input{
+    transition: background-color 0.3s ease; /* Pridanie animácie pre zmenu farby */
+}
+
+.user-input-box input:focus{
+    border-color: #4CAF50; /* Zmena farby okrajov pri fokuse */
+}
