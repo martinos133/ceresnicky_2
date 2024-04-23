@@ -54,3 +54,18 @@ function presunNalomnicky() {
     const sekcia = document.getElementById('lomnicky');
     sekcia.scrollIntoView({ behavior: 'smooth' });
 }
+
+function presunNabelianska() {
+    const sekcia = document.getElementById('belianska');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNapleso() {
+    const sekcia = document.getElementById('pleso');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNatanap() {
+    const sekcia = document.getElementById('tanap');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
