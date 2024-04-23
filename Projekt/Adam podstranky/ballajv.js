@@ -49,3 +49,8 @@ function presunNaremesla() {
     const sekcia = document.getElementById('remesla');
     sekcia.scrollIntoView({ behavior: 'smooth' });
 }
+
+function presunNalomnicky() {
+    const sekcia = document.getElementById('lomnicky');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
