@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team>
+    <member>
+        <name>Peter</name>
+        <role>Developer</role>
+        <age>29</age>
+    </member>
+    <member>
+        <name>Maria</name>
+        <role>Designer</role>
+        <age>25</age>
+    </member>
+    <member>
+        <name>Ivan</name>
+        <role>Manager</role>
+        <age>35</age>
+    </member>
+</team>
