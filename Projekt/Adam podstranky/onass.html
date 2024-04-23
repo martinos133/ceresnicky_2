@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Informácie o tíme</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Informácie o členoch tímu</h2>
+    <button onclick="loadTeamData()">Načítať dáta</button>
+    <table id="teamTable">
+        <tr>
+            <th>Meno</th>
+            <th>Pozícia</th>
+            <th>Vek</th>
+        </tr>
+    </table>
+
+    <script>
+        function loadTeamData() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    displayTeamData(this);
+                }
+            };
+            xmlhttp.open("GET", "team_data.xml", true);
+            xmlhttp.send();
+        }
+
+        function displayTeamData(xml) {
+            var i;
+            var xmlDoc = xml.responseXML;
+            var table = "<tr><th>Meno</th><th>Pozícia</th><th>Vek</th></tr>";
+            var members = xmlDoc.getElementsByTagName("member");
+            for (i = 0; i < members.length; i++) {
+                var name = members[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+                var role = members[i].getElementsByTagName("role")[0].childNodes[0].nodeValue;
+                var age = members[i].getElementsByTagName("age")[0].childNodes[0].nodeValue;
+                table += "<tr><td>" + name + "</td><td>" + role + "</td><td>" + age + "</td></tr>";
+            }
+            document.getElementById("teamTable").innerHTML = table;
+        }
+    </script>
+</body>
+</html>
