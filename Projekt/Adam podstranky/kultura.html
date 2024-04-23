@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kultura</title>
+    <link rel="stylesheet" href="mainb.css">
+
+</head>
+<body class="kulturab">
+    <header class="header">
+        <a href="../../Projekt/index.html" class="logo">Čerešničky</a>
+
+        <nav class="navbar">
+            <a href="historia.html">História</a>
+            <a href="kultura.html">Kultúra</a>
+            <a href="pamiatky.html">Pamiatky</a>
+            <a href="muzea.html">Múzeá</a>
+        </nav>
+    </header>
+
+    <main>  
+        <div class="rowk">
+            <div class="colk">
+                <h2>Tradičná kultúra a ľudové remeslá Tatier</h2>
+                <h1>Bohatá historia a kultúrne dedičstvo Slovenska</h2>
+                    <button onclick="presunNaremesla()" class="buttonk">Viac</button>
+            </div>
+            </div>
+                <div class="rrowk" id="remesla">
+                    <div class="ccolk">
+                        <h1>Ľudové umenie a remeslá</h1>
+                        <p class="pk">Tatranská ľudová kultúra sa prejavuje najmä prostredníctvom rozličných tradičných remesiel, ktoré sa odovzdávali z generácie na generáciu. Medzi najznámejšie patrí:</p>
+                    </div>
+                    <div class="ccolk">
+                        <div onclick="presunNadrevo()" class="cardk card1">
+                            <h5>Drevoorezba</h5>
+                        </div>
+        
+                        <div onclick="presunNatkanie()" class="cardk card2">
+                            <h5>Tkanie a vyšívanie</h5>
+                        </div>
+        
+                        <div onclick="presunNavyroba()" class="cardk card3">
+                            <h5>Výroba hlinených výrobkov</h5>
+                        </div>
+                    </div>
+                </div>
+                <section class="rozvoj" id="drevo">
+                    <div class="rozvoj-container">
+                        <div class="rozvoj-left">
+                    <h2>Drevoorezba</h2>
+                    <p>Drevo je tradičným materiálom v Tatrách, vďaka rozsiahlym lesom. Drevoorezba sa používala nielen na výrobu užitkových predmetov ako sú nábytok a náradie, ale aj na umelecké a dekoratívne účely, vrátane sakrálnych predmetov a suvenírov.</p>
+                </div>
+                <div class="rozvoj-right">
+                    <img src="img/drevor.webp" alt="illustration" class="tanap1">
+                </div>
+                </div>
+                
+            </section>
+                <section class="rozvoj" id="tkanie">
+                    <div class="rozvoj-container">
+                        <div class="rozvoj-left">
+                    <h2>Tkanie a vyšívanie</h2>
+                    <p>Textilné umenie je v Tatrách veľmi populárne, pričom tradičné vzory sú často inšpirované prírodou a lokálnymi legendami. Vyšívané kroje sú známe svojou detailnosťou a farbistosťou.</p>
+                </div>
+                <div class="rozvoj-right">
+                    <img src="img/tkanie.webp" alt="illustration" class="tanap1">
+                </div>
+                </div>
+            </section>
+
+        <section class="rozvoj" id="vyroba">
+            <div class="rozvoj-container">
+                <div class="rozvoj-left">
+            <h2>Výroba hlinených a keramických výrobkov</h2>
+            <p>Lokálne keramika sa vyznačuje jedinečnými glazúrami a motívmi, ktoré odzrkadľujú kultúrnu identitu oblasti.</p>
+        </div>
+        <div class="rozvoj-right">
+            <img src="img/vyroba.webp" alt="illustration" class="tanap1">
+        </div>
+        </div>
+        </section>
+                
+        <div class="rowwk">
+            <div class="collk">
+                <h1>Hudba a Tanec</h1>
+                <h2>Hudba a tanec sú neoddeliteľnou súčasťou tatranskej kultúry</h2>
+            </div>
+            </div>
+        <section class="rozvoj">
+                    <div class="rozvoj-container">
+                        <div class="rozvoj-left">
+                    <h2>Fujara</h2>
+                    <p>Dlhá dychová flauta, ktorá je na Slovensku považovaná za národný hudobný nástroj a je zapísaná v zozname svetového kultúrneho dedičstva UNESCO.</p>
+                </div>
+                <div class="rozvoj-right">
+                    <img src="img/fujara.webp" alt="illustration" class="fujara">
+                </div>
+                </div>
+        </section>
+        
+        <section class="rozvoj">
+                    <div class="rozvoj-container">
+                        <div class="rozvoj-left">
+                    <h2>Gajdy</h2>
+                    <p>Typ vreckových dud, ktorý je populárny v celom horskom regióne.</p>
+                </div>
+                <div class="rozvoj-right">
+                    <img src="img/gajdy.webp" alt="illustration" class="fujara">
+                </div>
+                 </div>
+        </section>
+        
+        <footer>
+            <h2 class="noviniek">Prihlásiť na odber noviniek</h2>
+            <form id="teamForm">
+                <label for="name">Meno:</label>
+                <input type="text" id="name" name="name"><br><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label>Pohlavie:</label>
+                <input type="radio" id="male" name="gender" value="muž">
+                <label for="male">Muž</label>
+                <input type="radio" id="female" name="gender" value="žena">
+                <label for="female">Žena</label><br><br>
+            
+                <label for="newsletter">Prihlásiť na odber noviniek:</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"><br><br>
+            
+                <button class="buttonf" onclick="validateForm()">Odoslať</button>
+            </form>
+            
+            <script src="ballajv.js"></script>
+                <p></p>
+                <p><strong>Kontakt:</strong> email@example.com | </p>
+                <p>&copy; 2024 Čerešničky, Inc.</p>
+            </footer>
+    </main>
+</body>
+</html>

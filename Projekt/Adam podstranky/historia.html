@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>História Tatier</title>
-<link rel="stylesheet" href="balla.css">
+<link rel="stylesheet" href="mainb.css">
     
 </head>
-<body>
-
+<body class="historiab">
     <header class="header">
-        <a href="index.html" class="logo">Čerešničky</a>
-        <h1>História Tatier</h1>
+        <a href="../../Projekt/index.html" class="logo">Čerešničky</a>
 
         <nav class="navbar">
-            <a href="#">História</a>
-            <a href="#">Kultúra</a>
-            <a href="#">Pamiatky</a>
-            <a href="#">Folklór</a>
-            <a href="#">Múzeá</a>
+            <a href="historia.html">História</a>
+            <a href="kultura.html">Kultúra</a>
+            <a href="pamiatky.html">Pamiatky</a>
+            <a href="muzea.html">Múzeá</a>
         </nav>
 
-
     </header>
-
-    <main>
-        <section class="historia-h1">
+    <main>  
+            <div class="rowh">
+                <div class="colh">
+                    <h1>História Tatier</h2>
+                    <button onclick="presunNaHistoriuTatier()" class="buttonh">Viac</button>
+                </div>
+                </div>
+        <section class="historia-h1" id="historiaTatier">
             <div class="historia-container">
                 <div class="historia-left">
                     <h1>História Tatier</h1>
                     <p>Tatry sú pohorie v strednej Európe, rozprestierajúce sa na hraniciach medzi Slovenskom a Poľskom. Sú známe svojou nádherou, divokou prírodou a bohatou historickou dedinou.</p>
         </div>
         <div class="historia-right">
-            <img src="./img/tatry-historia.jpg" alt="illustration" class="historia-image">
+            <img src="./img/tatry-historia.jpg" alt="illustration" class="stredoveke-img">
 
         </div>
         </div>
@@ -45,7 +46,7 @@
                 <p>Archeologické nálezy dokazujú, že oblasť Tatier bola osídlená už v praveku. Lovci a zberači sa tu pohybovali v hlbokých údoliach a na vrcholoch. Našli sa aj doklady o osídlení v stredoveku.</p>
             </div>
             <div class="pravek-right">
-                <img src="img/pozdrav_zpraveku.jpg" alt="illustration" class="pozdrav-zpraveku">
+                <img src="img/pozdrav_zpraveku.jpg" alt="illustration" class="stredoveke-img">
     
             </div>
             </div>
@@ -82,35 +83,39 @@
                 <div class="zmeny-left">
             <h2>Zmeny v 20.storočí</h2>
             <p>Tatry boli svedkami mnohých historických udalostí v 20. storočí. Počas prvej svetovej vojny sa stali bojiskom a počas druhej svetovej vojny boli miestom odporu proti nacistickému okupantu. Po vojne sa Tatry stali súčasťou Československa a neskôr samostatného Slovenska.</p>
+            </div>
+            <div class="stredoveke-right">
+                <img src="img/20st.webp" alt="illustration" class="stredoveke-img">
         </div>
         </div>
         </section>
     </main>
    
-    <footer class="footer mt-auto py-3 bg-dark text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>O nás</h5>
-                    <p>Táto stránka je dedikovaná Tatrám, jednému z najkrajších a najzaujímavších miest na Slovensku.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Kontakt</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-white" href="#">Email: info@tatry.com</a></li>
-                        <li><a class="text-white" href="#">Telefón: +421 123 456 789</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Sociálne siete</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-white" href="#">Facebook</a></li>
-                        <li><a class="text-white" href="#">Instagram</a></li>
-                        <li><a class="text-white" href="#">Twitter</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <footer>
+        <h2 class="noviniek">Prihlásiť na odber noviniek</h2>
+        <form id="teamForm">
+            <label for="name">Meno:</label>
+            <input type="text" id="name" name="name"><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label>Pohlavie:</label>
+            <input type="radio" id="male" name="gender" value="muž">
+            <label for="male">Muž</label>
+            <input type="radio" id="female" name="gender" value="žena">
+            <label for="female">Žena</label><br><br>
+        
+            <label for="newsletter">Prihlásiť na odber noviniek:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"><br><br>
+        
+            <button class="buttonf" onclick="validateForm()">Odoslať</button>
+        </form>
+        
+        <script src="ballajv.js"></script>
+            <p></p>
+            <p><strong>Kontakt:</strong> email@example.com | </p>
+            <p>&copy; 2024 Čerešničky, Inc.</p>
         </footer>
 </body>
 </html>

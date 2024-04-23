@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamiatky</title>
+    <link rel="stylesheet" href="mainb.css">
+
+</head>
+<body class="pamiatkyb">
+    <header class="header">
+        <a href="../../Projekt/index.html" class="logo">Čerešničky</a>
+
+        <nav class="navbar">
+            <a href="historia.html">História</a>
+            <a href="kultura.html">Kultúra</a>
+            <a href="pamiatky.html">Pamiatky</a>
+            <a href="muzea.html">Múzeá</a>
+        </nav>
+    </header>
+    <main>
+        <div class="row-p">
+            <div class="col-p">
+                <h1 class="h1p">Pamiatky</h1>
+                <p class="pp">Tatranské pohorie, ktoré sa rozkladá na hranici medzi Slovenskom a Poľskom, je bohaté na prírodné krásy a historické pamiatky. Tu je niekoľko kľúčových miest a atrakcií v tomto regióne:</p>
+                <button onclick="presunNalomnicky()" class="buttonp">Viac</button>
+            </div>
+            <div class="col-p">
+                <div onclick="presunNalomnicky()" class="cardp card1">
+                    <h5 class="cardh5">Lomnický Štít</h5>
+                </div>
+
+                <div onclick="presunNabelianska()" class="cardp card2">
+                    <h5 class="cardph5">Belianska jaskyňa</h5>
+                </div>
+
+                <div onclick="presunNapleso()" class="cardp card3">
+                    <h5 class="cardph5">Štrbské Pleso</h5>
+                </div>
+
+                <div onclick="presunNatanap()" class="cardp card4">
+                    <h5 class="cardph5">Tatranský národný park</h5>
+                </div>
+            </div>
+        </div>
+
+        <section class="historia-h1" id="lomnicky">
+            <div class="historia-container">
+                <div class="historia-left">
+                    <h1>Lomnický štít</h1>
+                    <p>Jeden z najvyšších a najnavštevovanejších vrcholov vo Vysokých Tatrách, prístupný lanovkou, ponúka dychberúce výhľady z vrcholu. Cesta na Lomnický štít je sama o sebe vzrušujúca a poskytuje panoramatické výhľady na okolité horské reťazce.</p>
+        </div>
+        <div class="historia-right">
+            <img src="img/stitl.jpg" alt="illustration" class="stredoveke-img">
+
+        </div>
+        </div>
+        </section>
+
+        <section class="praveke" id="belianska">
+            <div class="praveke-container">
+                <div class="praveke-left">
+                <h2>Belianska jaskyňa</h2>
+                <p>Nachádza sa na slovenskej strane Tatier a je jedinou jaskyňou v regióne prístupnou verejnosti. Je známa svojimi impozantnými tvorbami stalaktitov a stalagmitov, čo ju robí populárnou destináciou pre geologických nadšencov.</p>
+            </div>
+            <div class="pravek-right">
+                <img src="img/belianskaj.jpg" alt="illustration" class="stredoveke-img">
+    
+            </div>
+            </div>
+        </section>
+
+        <section class="stredoveke" id="pleso">
+            <div class="stredoveke-container">
+                <div class="stredoveke-left">
+            <h2>Štrbské Pleso</h2>
+            <p>Toto malebné ľadovcové jazero obklopené hustými lesmi a vysokými vrcholmi je jedným z najpopulárnejších miest na Slovenskej strane Tatier. Je východiskovým bodom pre mnohé turistické trasy a jeho pokojná krása je ideálna pre relaxáciu a fotografovanie.</p>
+        </div>
+        <div class="stredoveke-right">
+            <img src="img/strbskep.jpg" alt="illustration" class="stredoveke-img">
+
+        </div>
+        </div>
+        </section>
+
+        <section class="rozvoj" id="tanap">
+            <div class="rozvoj-container">
+                <div class="rozvoj-left">
+            <h2>Tatranský národný park</h2>
+            <p>Tento park sa rozprestiera na slovenskej aj poľskej strane Tatier a je súčasťou svetovej biosférickej rezervy UNESCO. Je domovom rozmanitej flóry a fauny, spektakulárnych krajín a viac ako 600 jaskýň, hoci len niekoľko z nich je otvorených pre turistov.</p>
+        </div>
+        <div class="rozvoj-right">
+            <img src="img/tanap1.jpg" alt="illustration" class="stredoveke-img">
+        </div>
+        </div>
+        </section>
+        
+        <footer>
+        <h2 class="noviniek">Prihlásiť na odber noviniek</h2>
+        <form id="teamForm">
+            <label for="name">Meno:</label>
+            <input type="text" id="name" name="name"><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label>Pohlavie:</label>
+            <input type="radio" id="male" name="gender" value="muž">
+            <label for="male">Muž</label>
+            <input type="radio" id="female" name="gender" value="žena">
+            <label for="female">Žena</label><br><br>
+        
+            <label for="newsletter">Prihlásiť na odber noviniek:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"><br><br>
+        
+            <button class="buttonf" onclick="validateForm()">Odoslať</button>
+        </form>
+        
+        <script src="ballajv.js"></script>
+            <p></p>
+            <p><strong>Kontakt:</strong> email@example.com | </p>
+            <p>&copy; 2024 Čerešničky, Inc.</p>
+        </footer>
+        
+    </main>  
+</body>
+</html>

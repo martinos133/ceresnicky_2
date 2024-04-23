@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team>
+    <member>
+        <name>Bohus</name>
+        <role>Designer</role>
+        <age>20</age>
+    </member>
+    <member>
+        <name>Mato</name>
+        <role>Developer</role>
+        <age>21</age>
+    </member>
+    <member>
+        <name>Adam</name>
+        <role>Designer</role>
+        <age>21</age>
+    </member>
+</team>
