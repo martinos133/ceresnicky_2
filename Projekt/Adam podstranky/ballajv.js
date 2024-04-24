@@ -55,6 +55,38 @@ function presunNalomnicky() {
     sekcia.scrollIntoView({ behavior: 'smooth' });
 }
 
+function presunNamuzeump() {
+    const sekcia = document.getElementById('muzeump');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNamtanap() {
+    const sekcia = document.getElementById('mtanap');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNadobracka() {
+    const sekcia = document.getElementById('dobracka');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNadom() {
+    const sekcia = document.getElementById('dom');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNavila() {
+    const sekcia = document.getElementById('vila');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+function presunNaposlednem() {
+    const sekcia = document.getElementById('poslednem');
+    sekcia.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+
 function presunNabelianska() {
     const sekcia = document.getElementById('belianska');
     sekcia.scrollIntoView({ behavior: 'smooth' });

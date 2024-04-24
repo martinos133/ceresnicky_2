@@ -20,21 +20,21 @@
        <main>
         <div class="slider">
             <div class="slide">
-                <img src="img/muzeum-v-poprade.jpg" alt="Image 1" data-additional-text="additionalText1">
+                <img  onclick="presunNamuzeump()" src="img/muzeum-v-poprade.jpg" alt="Image 1" data-additional-text="additionalText1">
                 <div class="slide-text">
                     <h2>Podtatranské múzeum v Poprade</h2>
                     <p>Lokalita: Poprad</p>
                 </div>
             </div>
             <div class="slide">
-                <img src="img/muzeum-tanap-u-foto-jano-stovka-mqep_full.jpg" alt="Image 2" data-additional-text="additionalText2">
+                <img  onclick="presunNamtanap()" src="img/muzeum-tanap-u-foto-jano-stovka-mqep_full.jpg" alt="Image 2" data-additional-text="additionalText2">
                 <div class="slide-text">
                     <h2>Múzeum Tatranského národného parku (TANAP)</h2>
                     <p>Lokalita: Tatranská Lomnica</p>
                 </div>
             </div>
             <div class="slide">
-                <img src="img/Dobrahracka.jpg" alt="Image 3" data-additional-text="additionalText3">
+                <img  onclick="presunNadobracka()" src="img/Dobrahracka.jpg" alt="Image 3" data-additional-text="additionalText3">
                 <div class="slide-text">
                     <h2>Galéria Dobrá Hračka</h2>
                     <p>Lokalita: Starý Smokovec</p>
@@ -42,28 +42,28 @@
             </div>
             <div class="slider">
                 <div class="slide">
-                    <img src="img/zdiarsky-dom-01.jpg" alt="Image 1" data-additional-text="additionalText1">
+                    <img onclick="presunNadom()" src="img/zdiarsky-dom-01.jpg" alt="Image 1" data-additional-text="additionalText1">
                     <div class="slide-text">
                         <h2>Expozícia ľudovej architektúry - Ždiarsky dom</h2>
                         <p>Lokalita: Ždiar</p>
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="img/vila-flora-v-starom-smokovci-v-roku-2009-clanokW.jpg" alt="Image 2" data-additional-text="additionalText2">
+                    <img onclick="presunNavila()" src="img/vila-flora-v-starom-smokovci-v-roku-2009-clanokW.jpg" alt="Image 2" data-additional-text="additionalText2">
                     <div class="slide-text">
                         <h2>Villa Flóra</h2>
                         <p>Lokalita: Starý Smokovec</p>
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="img/muzeumk.jpg" alt="Image 3" data-additional-text="additionalText3">
+                    <img onclick="presunNaposlednem()" src="img/muzeumk.jpg" alt="Image 3" data-additional-text="additionalText3">
                     <div class="slide-text">
                         <h2>Múzeum Jána Juraja Tatara</h2>
                         <p>Lokalita: Kežmarok</p>
                 </div>
             </div>
         </div>
-        <section class="historia-h1">
+        <section class="historia-h1" id="muzeump">
             <div class="historia-container">
                 <div class="historia-left">
                     <h1>Podtatranské múzeum v Poprade</h1>
@@ -76,7 +76,7 @@
         </div>
         </section>
         
-        <section class="praveke">
+        <section class="praveke" id="mtanap">
             <div class="praveke-container">
                 <div class="praveke-left">
                 <h2>Múzeum Tatranského národného parku (TANAP)</h2>
@@ -89,7 +89,7 @@
             </div>
         </section>
 
-        <section class="stredoveke">
+        <section class="stredoveke" id="dobracka">
             <div class="stredoveke-container">
                 <div class="stredoveke-left">
             <h2>Galéria Dobrá Hračka</h2>
@@ -102,7 +102,7 @@
         </div>
         </section>
 
-        <section class="rozvoj">
+        <section class="rozvoj" id="dom">
             <div class="rozvoj-container">
                 <div class="rozvoj-left">
             <h2>Expozícia ľudovej architektúry - Ždiarsky dom</h2>
@@ -115,7 +115,7 @@
         </div>
         </section>
 
-        <section class="zmeny">
+        <section class="zmeny" id="vila">
             <div class="zmeny-container">
                 <div class="zmeny-left">
             <h2>Villa Flóra</h2>
@@ -127,7 +127,7 @@
         </div>
         </section>
         
-        <section class="zmeny">
+        <section class="zmeny" id="poslednem">
             <div class="zmeny-container">
                 <div class="zmeny-left">
             <h2>Múzeum Jána Juraja Tatara</h2>
