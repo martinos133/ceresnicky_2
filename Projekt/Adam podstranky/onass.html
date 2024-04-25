@@ -26,18 +26,18 @@
     </table>
 
     <script>
-        function loadTeamData() {
+        function loadonas() {
             var xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    displayTeamData(this);
+                    displayonas(this);
                 }
             };
             xmlhttp.open("GET", "onas.xml", true);
             xmlhttp.send();
         }
 
-        function displayTeamData(xml) {
+        function displayonas(xml) {
             var i;
             var xmlDoc = xml.responseXML;
             var table = "<tr><th>Meno</th><th>Pozícia</th><th>Vek</th></tr>";
